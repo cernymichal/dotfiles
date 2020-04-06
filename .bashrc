@@ -8,6 +8,8 @@
 alias ls='ls --color=auto'
 alias vim='nvim'
 
+export EDITOR="nvim"
+
 PS1='[\u@\h \W]\$ '
 
 clear
