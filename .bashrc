@@ -10,4 +10,5 @@ alias vim='nvim'
 
 PS1='[\u@\h \W]\$ '
 
+clear
 neofetch
