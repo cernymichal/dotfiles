@@ -18,7 +18,7 @@ alias ls='ls --color=auto --group-directiories-first'
 alias vim='nvim'
 alias p='sudo pacman'
 
-PS1='[\[$(tput bold)\]\u\[$(tput sgr0)\]@\[$(tput bold)\]\h\[$(tput sgr0)\] \w]\\$ \[$(tput sgr0)]'
+PS1='[\[$(tput bold)\]\u\[$(tput sgr0)\]@\[$(tput bold)\]\h\[$(tput sgr0)\] \w]\\$ \[$(tput sgr0)\]'
 
 clear
 neofetch
