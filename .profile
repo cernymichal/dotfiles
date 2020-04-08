@@ -15,7 +15,7 @@ export BROWSER='firefox'
 # Start Xorg if on tty1
 [ "$(tty)" = "/dev/tty1" ] && ! pgrep -x Xorg >/dev/null && exec startx
 
-alias ls='ls --color=auto --group-directiories-first'
+alias ls='ls --color=auto --group-directories-first'
 alias vim='nvim'
 alias p='sudo pacman'
 
