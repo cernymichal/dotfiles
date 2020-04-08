@@ -1,3 +1,6 @@
 #!/bin/sh
 
 ln -sf $HOME/.profile $HOME/.bashrc
+
+chmod +x $HOME/.local/bin/*
+chmod +x $HOME/.config/yadm/bootstrap
