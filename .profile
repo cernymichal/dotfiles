@@ -2,7 +2,8 @@
 
 stty -ixon # Disable freezing terminal
 shopt -s autocd # cd just by dirname
-HISTSIZE= HISTFILESIZE= # Infinite history
+
+export PATH=$PATH:$HOME/.local/bin
 
 export EDITOR='nvim'
 export TERMINAL='st'
@@ -20,5 +21,3 @@ alias p='sudo pacman'
 
 PS1='[\[$(tput bold)\]\u\[$(tput sgr0)\]@\[$(tput bold)\]\h\[$(tput sgr0)\] \w]\\$ \[$(tput sgr0)\]'
 
-clear
-neofetch
